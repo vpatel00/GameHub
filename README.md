@@ -6,7 +6,7 @@ DOWNLOAD INSTRUCTIONS:
 3. Note: Check directories before running, if an error occurs.
 
 ----------------------------------------------------------------
-How to PLAY:
+HOW TO PLAY:
 
 NOTE: HAVE VOLUME ON, SOME GAMES HAVE MUSIC. 
 
