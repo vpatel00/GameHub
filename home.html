@@ -1,0 +1,225 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Game Hub
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+   /* Custom styles for dropdown */
+   .dropdown:hover .dropdown-menu {
+    display: block;
+   }
+  </style>
+ </head>
+ <body class="bg-gray-900 text-white font-roboto flex flex-col min-h-screen">
+  <header class="bg-gray-800 p-4 flex justify-between items-center shadow-md">
+   <div class="flex items-center">
+    <img alt="Game Hub logo, a stylized game controller" class="h-10 w-10 rounded-full" height="50" src="https://storage.googleapis.com/a1aa/image/FV4HZ9o4FeX5cyu1ETR69znrkAYN8AGTXtitV9QNh9Qwrv8JA.jpg" width="50"/>
+    <h1 class="text-2xl font-bold ml-2 flex">
+     <span class="bg-black text-white p-2 rounded-l">
+      Game
+     </span>
+     <span class="bg-orange-500 text-black p-2 rounded-r -ml-1">
+      Hub
+     </span>
+    </h1>
+   </div>
+   <nav class="space-x-4 relative">
+    <a class="hover:text-orange-500" href="#">
+     Home
+    </a>
+    <div class="dropdown inline-block relative">
+     <a class="hover:text-orange-500 cursor-pointer">
+      Games
+     </a>
+     <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+      <li class="">
+       <a class="bg-gray-800 hover:bg-gray-700 py-2 px-4 block whitespace-no-wrap" href="Flappy Cat/index.html">
+        Game 1
+       </a>
+      </li>
+      <li class="">
+       <a class="bg-gray-800 hover:bg-gray-700 py-2 px-4 block whitespace-no-wrap" href="Primary Key Boss Battle/FinalProjectGame.html">
+        Game 2
+       </a>
+      </li>
+      <li class="">
+       <a class="bg-gray-800 hover:bg-gray-700 py-2 px-4 block whitespace-no-wrap" href="Blackjack/index.html">
+        Game 3
+       </a>
+      </li>
+      <li class="">
+       <a class="bg-gray-800 hover:bg-gray-700 py-2 px-4 block whitespace-no-wrap" href="Slot Machine/index.html">
+        Game 4
+       </a>
+      </li>
+     </ul>
+    </div>
+    <a class="hover:text-orange-500" href="#">
+     News
+    </a>
+    <a class="hover:text-orange-500" href="#">
+     Contact
+    </a>
+   </nav>
+   <div class="balance-bar bg-gray-700 p-2 rounded-lg ml-4 flex items-center">
+    <img alt="Gold coin icon with a dark theme representing currency" class="h-6 w-6 mr-2 rounded-full" height="24" src="https://storage.googleapis.com/a1aa/image/uZing7FkQ2ZcENyjhFpdWZ24lvbA8RitnPmzKz4BjjQI5XeJA.jpg" width="24"/>
+    <h2 class="text-lg font-montserrat">
+     Balance:
+     <span id="balance" class="font-bold">
+      100000
+     </span>
+    </h2>
+   </div>
+  </header>
+  <main class="p-4 flex-grow">
+   <section class="mb-8">
+    <h2 class="text-3xl font-bold text-orange-500 mb-4">
+     Featured Games: Click On A Game To Play!
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+     <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+        <a href="Flappy Cat/index.html">
+            <img alt="Screenshot of Game 1, showing an action-packed scene" class="rounded-lg mb-2" height="200" src="https://pbs.twimg.com/media/FZ1Xcd2XEAAY7X_.jpg" width="300"/>
+            <h3 class="text-xl font-bold text-orange-500">
+             Flappy Cat!
+            </h3>
+            <p class="text-gray-400">
+              Flappy Cat is a simple game where you control a cat to fly through a series of pipes without hitting them or the edges of the game area.
+            </p>
+          </a>
+         </div>
+         <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+          <a href="Primary Key Boss Battle/FinalProjectGame.html">
+            <img alt="Image Not Downloaded" class="rounded-lg mb-2" height="200" src="https://temp-ca.s3.amazonaws.com/ris344573218sst1733924023.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2YDWKLAVXKBZDYMV%2F20241211%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241211T133344Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Signature=a8a80ded120243ec7a6b00ba90e6c9da1e76cb2d7983367f5c393c6c63d3552c" width="300"/>
+            <h3 class="text-xl font-bold text-orange-500">
+             Primary Key Boss Battle...
+            </h3>
+            <p class="text-gray-400">
+            Fight Mr Primary Key Himself, In An Epic Duel Dodging Packet Loss!
+            </p>
+          </a>
+         </div>
+         <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+          <a href="Blackjack/index.html">
+            <img alt="Screenshot of Game 3,blackjack" class="rounded-lg mb-2" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAYpVHAHoEOaxrNxZs5Bya0NJC1qiGzaoGMA&s" width="300"/>
+            <h3 class="text-xl font-bold text-orange-500">
+             Blackjack Cards!
+            </h3>
+            <p class="text-gray-400">
+             Blackjack, test your luck. The goal of blackjack is simple. All one needs to do to win is have a higher hand value than the dealer, without going over 21.
+            </p>
+          </a>
+         </div>
+         <div class="bg-gray-800 p-4 rounded-lg shadow-md">
+          <a href="Slot Machine/index.html">
+            <img alt="Screenshot of Game 4, showing a puzzle game interface" class="rounded-lg mb-2" height="200" src="https://storage.googleapis.com/a1aa/image/a7c49966-74b4-4afc-a4a4-ea65b98dc08b.jpeg" width="300"/>
+            <h3 class="text-xl font-bold text-orange-500">
+             "Lets Go Gambling!" Simulator (Slot Machine)
+            </h3>
+            <p class="text-gray-400">
+             Challenging slot machine game, can you spin these odds in your favor? Match to win!
+            </p>
+          </a>
+         </div>
+        </div>
+       </section>
+       <section>
+        <h2 class="text-3xl font-bold text-orange-500 mb-4">
+         Latest News: Read Below!
+        </h2>
+        <div class="space-y-4">
+         <div class="bg-gray-800 p-4 rounded-lg flex items-center shadow-md">
+          <img alt="Thumbnail of news article 1" class="rounded-lg mr-4" height="100" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPvn2TLRuCrTzD_y2lVnmwQwfMwNhrnjLn5kMZNe5g-3scIwdq" width="100"/>
+          <div>
+           <h3 class="text-xl font-bold text-orange-500">
+            News Article 1: Game Update
+           </h3>
+           <p class="text-gray-400">
+            New changes coming soon!
+           </p>
+          </div>
+         </div>
+         <div class="bg-gray-800 p-4 rounded-lg flex items-center shadow-md">
+          <img alt="Thumbnail of news article 2" class="rounded-lg mr-4" height="100" src="https://w7.pngwing.com/pngs/647/807/png-transparent-confuse-gesture-confusion-medical-sign-symptom-confused-miscellaneous-recruiter-business.png" width="100"/>
+          <div>
+           <h3 class="text-xl font-bold text-orange-500">
+            News Article 2: Spark
+           </h3>
+           <p class="text-gray-400">
+            Up now: Spark Session, and Wwo does this.... benefit?
+        </p>
+       </div>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg flex items-center shadow-md">
+       <img alt="Thumbnail of news article 3" class="rounded-lg mr-4" height="100" src="https://media.istockphoto.com/id/1138089867/vector/scroll-down-icon-vector-scrolling-symbol-for-web-design.jpg?s=612x612&w=0&k=20&c=aHgGcrf2uuDv-KybzpbI5grgrX-3KuS7kXvYujGJNNY=" width="100"/>
+       <div>
+        <h3 class="text-xl font-bold text-orange-500">
+         News Article 3: Tricks
+        </h3>
+        <p class="text-gray-400">
+         Top TRICK Compsi Majors gatekeep: Scrolling Down...
+        </p>
+       </div>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg flex items-center shadow-md">
+       <img alt="Thumbnail of news article 4, showing a game tournament" class="rounded-lg mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/QOuBNxFnJgrffEkpPrHHRu6rGBPYR16wEGUUp1evgL94cVynA.jpg" width="100"/>
+       <div>
+        <h3 class="text-xl font-bold text-orange-500">
+         News Article 4: Tips
+        </h3>
+        <p class="text-gray-400">
+         Game Tip: Dont Lose. Sources say to put it all on black. 
+        </p>
+       </div>
+      </div>
+     </div>
+    </section>
+   </main>
+   <footer class="bg-gray-800 p-4 mt-8 shadow-md">
+    <div class="flex justify-between items-center">
+     <p>
+      © 2024 Game Hub. All rights reserved. Marc was here, heh.
+     </p>
+     <div class="space-x-4">
+      <a class="hover:text-orange-500" href="https://www.facebook.com/dave.blunts.908/">
+       <i class="fab fa-facebook">
+       </i>
+      </a>
+      <a class="hover:text-orange-500" href="https://youtu.be/Ssj5ZBuhwIo?si=yC1SV6LueSEMSjCM">
+       <i class="fab fa-twitter">
+       </i>
+      </a>
+      <a class="hover:text-orange-500" href="https://www.instagram.com/iluvyoudaveblunts/">
+       <i class="fab fa-instagram">
+       </i>
+      </a>
+      <a class="hover:text-orange-500" href="https://youtu.be/Ssj5ZBuhwIo?si=yC1SV6LueSEMSjCM">
+       <i class="fab fa-youtube">
+       </i>
+      </a>
+     </div>
+    </div>
+   </footer>
+   <script>
+    // JavaScript to manage balance across pages
+    document.addEventListener('DOMContentLoaded', function() {
+        const balanceElement = document.getElementById('balance');
+        let balance = localStorage.getItem('balance') || 'ur broke loser';
+        balanceElement.textContent = balance;
+ 
+        // Update balance on other pages
+        window.addEventListener('storage', function(event) {
+            if (event.key === 'balance') {
+                balanceElement.textContent = event.newValue;
+            }
+        });
+    });
+   </script>
+  </body>
+ </html>
