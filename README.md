@@ -5,7 +5,7 @@ DOWNLOAD INSTRUCTIONS:
 2. Run the home.html file
 3. Note: Check directories before running, if an error occurs.
 
-
+----------------------------------------------------------------
 How to PLAY:
 
 NOTE: HAVE VOLUME ON, SOME GAMES HAVE MUSIC. 
