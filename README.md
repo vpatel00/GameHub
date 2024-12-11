@@ -11,6 +11,6 @@ Flappy Cat: Space Bar To Move. Avoid The Bars
 
 Primary Key Boss Battle: Dodge the packet loss with arrow keys to move. Keep Blue Box, or your packet, alive. 
 
-Blackjack: Press the buttons onscreen to play cards, and do actions.
+Blackjack: Press the orange buttons onscreen to play cards, and do actions.
 
 Slots: Press spin to spin. Hope you win.
