@@ -17,3 +17,5 @@ Primary Key Boss Battle: Dodge the packet loss with arrow keys to move. Keep Blu
 Blackjack: Press the orange buttons to play, and have a higher value than the dealer. Dont go over 21!
 
 Slots: Press spin to spin. Hope you win. Reset is to reset your balance to zero (Reset money goes to Vir Patels paypal)
+
+![Logo](logo.png)
