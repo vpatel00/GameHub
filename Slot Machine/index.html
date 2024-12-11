@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎰 Emoji Slot Machine 🎰</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎰 Emoji Slot Machine 🎰</h1>
+        <div class="slot-machine">
+            <div class="slot" id="slot1">🍒</div>
+            <div class="slot" id="slot2">🍒</div>
+            <div class="slot" id="slot3">🍒</div>
+        </div>
+        <div class="controls">
+            <input type="number" id="betAmount" placeholder="Enter your bet" min="1" />
+            <button id="spinButton">Spin</button>
+            <button id="resetButton">Reset</button>
+        </div>
+        <div class="balance">
+            <h2>Balance: $<span id="balance">100000</span></h2>
+        </div>
+        <div id="message"></div>
+    </div>
+    <audio id="spinSound" src="spin.mp3" preload="auto"></audio>
+    <audio id="winSound" src="win.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

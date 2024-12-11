@@ -1,0 +1,123 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bron.png'); /* Add your background image here */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    color: #333;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background for better visibility */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #28a745;
+}
+
+.slot-machine {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.slot {
+    font-size: 60px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 3px solid #28a745;
+    border-radius: 10px;
+    margin: 0 5px;
+    background-color: #e0f7e0;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot:hover {
+    background-color: #d0f0d0;
+    transform: scale(1.1);
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.balance {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+    transition: opacity 0.5s;
+}
+
+@media (max-width: 480px) {
+    .slot {
+        font-size: 50px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    input[type="number"],
+    button {
+        width: 90%;
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .balance {
+        font-size: 18px;
+    }
+}
