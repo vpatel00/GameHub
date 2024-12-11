@@ -7,6 +7,9 @@ DOWNLOAD INSTRUCTIONS:
 
 
 How to PLAY:
+
+NOTE: HAVE VOLUME ON, SOME GAMES HAVE MUSIC. 
+
 Flappy Cat: Space Bar To Move. Avoid The Bars
 
 Primary Key Boss Battle: Dodge the packet loss with arrow keys to move. Keep Blue Box, or your packet, alive. 
